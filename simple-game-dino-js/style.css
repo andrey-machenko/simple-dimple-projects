@@ -82,6 +82,14 @@ body {
   animation: cactusMove 1.3s infinite linear;
 }
 
+.timer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 50px;
+  color: #250312;
+}
+
 @keyframes cactusMove {
   0% {
     left: 650px;
@@ -99,13 +107,13 @@ body {
   0% {
     top: 150px;
   }
-  30% {
+  25% {
     top: 130px;
   }
   50% {
     top: 80px;
   }
-  80% {
+  75% {
     top: 130px;
   }
   100% {
